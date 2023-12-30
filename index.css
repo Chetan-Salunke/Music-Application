@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat:ital@1&family=Poppins:wght@300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Montserrat:ital,wght@0,900;1,400&family=Poppins:wght@300;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #030303;
+}
+
+p {
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+/* FIRST NAVBAR */
+.nav {
+    font-size: 1.2rem;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.navul {
+    display: flex;
+    list-style: none;
+    color: white;
+}
+
+/* .navul li:hover {
+    color: #2bc5b4 !important;
+    cursor: pointer;
+
+} */
+
+.nav li {
+    margin-right: 50px;
+}
+
+.logo {
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: #2bc5b4 !important;
+}
+
+.navul img {
+    height: 24px;
+    margin-right: 6px;
+}
+
+/* responsive nav bar css */
+/* HAMBURGER MENU */
+#hamburger-nav {
+    display: none;
+    padding: 30px;
+    justify-content: space-between;
+  }
+  
+  .hamburger-menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+  }
+  
+  .hamburger-icon span {
+    width: 100%;
+    height: 2px;
+    background-color: #2bc5b4 !important;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    width: fit-content;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links a {
+    display: block;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: #2bc5b4 !important;
+    text-decoration: none;
+    transition: all 0.3 ease-in-out;
+  }
+  
+  .menu-links li {
+    list-style: none;
+  }
+  
+  .menu-links.open {
+    max-height: 300px;
+  }
+  
+  .hamburger-icon.open span:first-child {
+    transform: rotate(45deg) translate(10px, 5px);
+  }
+  
+  .hamburger-icon.open span:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger-icon.open span:last-child {
+    transform: rotate(-45deg) translate(10px, -5px);
+  }
+  
+  .hamburger-icon span:first-child {
+    transform: none;
+  }
+  
+  .hamburger-icon span:first-child {
+    opacity: 1;
+  }
+  
+  .hamburger-icon span:first-child {
+    transform: none;
+  }
+
+/* SECOND NAVBAR */
+.navbar2 {
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #2bc5b4;
+}
+
+.navbar2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar2 li {
+    color: black;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+/* CARD SECTION */
+.containercard {
+    padding-top: 42px;
+    padding-bottom: 20px;
+}
+.musiclists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+.lists img {
+    height: 126px;
+    width: 210px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* SINGRLIST */
+.artist {
+    padding-top: 42px;
+    padding-bottom: 20px;
+}
+
+.artistlist {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.art:hover {
+    opacity: 0.9;
+    font-size: 14px;
+}
+
+.art img {
+    height: 90px;
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.heading {
+    font-size: 30px;
+    letter-spacing: 3px;
+    padding-left: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+/* NEWMUSICLIST */
+.list img {
+    height: 200px;
+    width: 340px;
+    cursor: pointer;
+}
+
+.list img:hover {
+    opacity: 0.8;
+}
+
+.musiclist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.newmusic {
+    padding-top: 42px;
+    padding-bottom: 20px;
+}
+
+/* BIGGEST HITS */
+.hits {
+    padding-top: 42px;
+    padding-bottom: 20px;
+}
+
+.hitslist {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.Hlist{
+    padding-bottom: 30px;
+}
+
+.Hlist img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.Hlist img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Style for the music player */
+#arjanvailly {
+    display: none;
+}
+
+#Softly {
+    display: none;
+}
+
+/* FOOTER */
+.footer {
+    padding-top: 42px;
+    padding-bottom: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1 p{
+    cursor: pointer;
+    line-height: 30px;
+}
+
+.container1 h3{
+    line-height: 30px;
+}
+
+.containers {
+    display: flex;
+}
+
+.container1 {
+    color: #2bc5b4;
+    padding-right: 140px;
+}
+
+.footerlogo {
+    color: #2bc5b4;
+    font-size: 35px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.containers img {
+    height: 24px;
+    padding-right: 18px;
+    cursor: pointer;
+}
+
+.lastline {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ////// */
+.cardz {
+    border: 1px solid #ccc;
+    color: #2bc5b4;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* --------singers------------- */
+/* font-family: 'Croissant One', serif; */
+.scontainer p{
+    background-color: #2bc5b4;
+    color: black;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.music-container{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.box{
+    border-radius: 1rem;
+    height: 15rem;
+    width: 70%;
+    display: flex;
+    /* align-items: center; */
+    background-color: white;
+    overflow: hidden;
+    margin: 20px;
+}
+.image{
+    height: 100%;
+    width: 25%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.music p{
+    color: black;
+    justify-content: center;
+    display: flex;
+    font-size: 20px;
+}
+.music{
+    width: 75%;
+    display: grid;
+    align-items: center;
+}
+audio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    outline: none;
+}
+audio::-webkit-media-controls-enclosure{
+    background: none;
+}
+

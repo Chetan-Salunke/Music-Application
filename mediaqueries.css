@@ -1,0 +1,184 @@
+/* ----MEDIA QUERIES---- */
+@media screen and (max-width: 1400px) {
+    .navul2 li{
+        font-size: 12px;
+    }
+    .art img{
+        height: 64px;
+        width: 64px;
+    }
+    .card{
+        height: 100px;
+        width: 180px;
+    }
+    .hitslist{
+        display: flex;
+        flex-wrap: wrap;
+        /* max-width: 160px; */
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #hamburger-nav {
+        display: flex;
+    }
+
+    .nav {
+        display: none;
+    }
+    .navul2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navul2 li{
+        font-size: 10px;
+    }
+    .art p{
+        font-size: 10px
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .container1{
+        padding-right: 0px;
+    }
+    #containersID{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .containers{
+        justify-content: space-around;
+        padding-right: 0px;
+    }
+    .footer{
+        display: contents;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        font-size: 22px;
+    }
+    .artistlist{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+    .art{
+        padding-bottom: 10px;
+    }
+    .card{
+        /* height: 176px; */
+        /* width: 88%; */
+        height: 92px;
+        width: 40%;
+        margin-bottom: 20px;
+    }
+    #card7{
+        display: none;
+    }
+    .artist{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .containercard{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .heading{
+        font-size: 18px;
+    } 
+    .list img {
+        height: 90px;
+        width: 160px;
+        cursor: pointer;
+    }
+    .list{
+        padding-bottom: 15px;
+    }
+    .newmusic{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .list p{
+        font-size: 12px;
+    }
+    .Hlist{
+        padding-bottom: 26px;
+    }
+    .Hlist img{
+        height: 140px;
+        width: 140px;
+    }
+    .hits{
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .Hlist p{
+        font-size: 12px;
+    }
+    .navul2{
+        justify-content: center;
+    }
+    .container1 p{
+        font-size: 12px;
+    }
+    .container1{
+        padding-right: 0%;
+    }
+    .container1 h3{
+        font-size: 16px;
+    }
+    #containersID{
+        justify-content: center;
+        padding-top: 50px;
+    }
+    .containers{
+        justify-content: space-around;
+        padding-right: 0px;
+        line-height: 26px;
+    }
+    .footer{
+        display: contents;
+    }
+    .footerlogo{
+        font-size: 24px;
+    }
+    .lastline p{
+        font-size: 10px;
+    }
+    .box{
+        /* height: 18rem; */
+        width: 90%;
+        flex-flow: column;
+    }
+    .image {
+        height: 65%;
+        width: 100%;
+    }
+    .music{
+        height: 20%;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .music p{
+        font-size: 15px;
+    }
+    .lists img{
+        width: 164px;
+        height: 96px;
+        padding-top: 15px;
+    }
+    .navbar2 li {
+        padding: 9px;
+    }
+    .navul2{
+        padding: 10px;
+    }
+}
